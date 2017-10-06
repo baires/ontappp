@@ -2,19 +2,23 @@
 # yarn lockfile v1
 
 
-"@types/node@^7.0.8":
-  version "7.0.37"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.37.tgz#f129fff94d14a60c3d99eadb9fe0c98119e09c8f"
-
-"@types/react-dom@^0.14.23":
-  version "0.14.23"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-0.14.23.tgz#cecfcfad754b4c2765fe5d29b81b301889ad6c2e"
+"@types/lodash.clonedeep@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.3.tgz#d42cfba3d929a4e1177a775142ce2a9444e384cf"
   dependencies:
-    "@types/react" "*"
+    "@types/lodash" "*"
 
-"@types/react@*", "@types/react@^15.0.16":
-  version "15.0.38"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.38.tgz#6afea31a9fe66304af474106ba372ddaba449995"
+"@types/lodash@*":
+  version "4.14.77"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.77.tgz#0bc699413e84d6ed5d927ca30ea0f0a890b42d75"
+
+"@types/node@^8.0.32":
+  version "8.0.32"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.32.tgz#869a716538b6eec65ab3893f183d557be3cda206"
+
+"@types/react@^16.0.8":
+  version "16.0.9"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.9.tgz#2ad952abbb22617620927694f9a4bce292d7fb2b"
 
 abbrev@1:
   version "1.1.0"
@@ -2920,6 +2924,10 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+
 lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
@@ -3802,14 +3810,14 @@ react-no-ssr@1.1.0:
   dependencies:
     babel-runtime "6.x.x"
 
-react-particles-js@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-1.5.0.tgz#d30313c52941282b8f8f58eaf909056bcf57a2ba"
+react-particles-js@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.0.0.tgz#188f863c685bda00e1df0b15f1b5aa4f25aa9d1f"
   dependencies:
-    "@types/node" "^7.0.8"
-    "@types/react" "^15.0.16"
-    "@types/react-dom" "^0.14.23"
-    react "^15.4.1"
+    "@types/lodash.clonedeep" "^4.5.3"
+    "@types/node" "^8.0.32"
+    "@types/react" "^16.0.8"
+    lodash.clonedeep "^4.5.0"
 
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
@@ -3824,7 +3832,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^15.4.1, react@^15.6.1:
+react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:
