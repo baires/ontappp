@@ -16,7 +16,7 @@
     "hedron": "^0.7.1",
     "isomorphic-fetch": "^2.2.1",
     "next": "^3.2.2",
-    "react": "^15.6.1",
+    "react": "^16.0.0",
     "react-body-classname": "^1.2.0",
     "react-dom": "^15.6.1",
     "react-no-ssr": "1.1.0",
