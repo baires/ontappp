@@ -20,7 +20,7 @@
     "react-body-classname": "^1.2.0",
     "react-dom": "^15.6.1",
     "react-no-ssr": "1.1.0",
-    "react-particles-js": "^1.5.0",
+    "react-particles-js": "^2.0.0",
     "styled-components": "^2.1.2",
     "styled-components-breakpoint": "^1.0.1",
     "webpack-bundle-analyzer": "^2.8.3"
