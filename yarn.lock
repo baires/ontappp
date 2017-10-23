@@ -3855,9 +3855,9 @@ react-no-ssr@1.1.0:
   dependencies:
     babel-runtime "6.x.x"
 
-react-particles-js@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.0.0.tgz#188f863c685bda00e1df0b15f1b5aa4f25aa9d1f"
+react-particles-js@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.1.0.tgz#e28afbafefa33c225b2ecdc014f2e40bc4d97ea5"
   dependencies:
     "@types/lodash.clonedeep" "^4.5.3"
     "@types/node" "^8.0.32"
