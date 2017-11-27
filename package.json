@@ -60,7 +60,7 @@
     "prettier": "^1.7.4",
     "prop-types": "^15.6.0",
     "styled-animated": "^1.0.0",
-    "stylelint": "^8.2.0",
+    "stylelint": "^8.3.0",
     "stylelint-config-standard": "^17.0.0",
     "stylelint-processor-styled-components": "^1.0.0"
   }
