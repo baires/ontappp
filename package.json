@@ -23,7 +23,7 @@
     "react-particles-js": "^2.1.0",
     "styled-components": "^2.2.1",
     "styled-components-breakpoint": "^1.0.1",
-    "webpack-bundle-analyzer": "^2.8.3"
+    "webpack-bundle-analyzer": "^2.9.1"
   },
   "description": "Is On Tap open?",
   "author": "Alexis Sgarbossa <alexis@sgarbossa.com.ar> (https://sgarbossa.com.ar)",
