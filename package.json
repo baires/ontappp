@@ -62,6 +62,6 @@
     "styled-animated": "^1.0.0",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^18.0.0",
-    "stylelint-processor-styled-components": "^1.0.0"
+    "stylelint-processor-styled-components": "^1.2.1"
   }
 }
