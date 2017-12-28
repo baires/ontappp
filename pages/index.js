@@ -57,9 +57,9 @@ export default class OnTap extends React.Component {
                 <Modal result={venue} />
               </Page>
               {globallyOpen(venuesOpen) === 'No' ||
-              globallyOpen(venuesOpen) === 'Quizas'
-                ? null
-                : <ParticlesContainer />}
+              globallyOpen(venuesOpen) === 'Quizas' ? null : (
+                <ParticlesContainer />
+              )}
             </Container>
           </NoSSR>
         </BodyClassName>

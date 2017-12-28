@@ -63,28 +63,25 @@ class Hours extends React.Component {
       line-height: 1.2;
     `;
 
-    const Link = ({ children, href }) =>
-      <LinkStyled href={href}>
-        {children}
-      </LinkStyled>;
+    const Link = ({ children, href }) => (
+      <LinkStyled href={href}>{children}</LinkStyled>
+    );
 
-    const IsOpenNow = ({ isOpen }) =>
-      <Open yupe={isOpen}>
-        {isOpen === true ? 'Si 😍' : 'No 😢'}
-      </Open>;
+    const IsOpenNow = ({ isOpen }) => (
+      <Open yupe={isOpen}>{isOpen === true ? 'Si 😍' : 'No 😢'}</Open>
+    );
 
     const formatAddress = /(<span(?: \w+="[^"]+")*(?: \w+="[^"]+")*>([^<]*)<\/span>)/g;
 
-    const Address = ({ data }) =>
-      <VicinityStyled>
-        {data.replace(formatAddress, '$2')}
-      </VicinityStyled>;
+    const Address = ({ data }) => (
+      <VicinityStyled>{data.replace(formatAddress, '$2')}</VicinityStyled>
+    );
 
     return (
       <div>
         <Modal show={this.state.showModal} onClose={this.closeModal}>
           <Row>
-            {venue.map((item, e) =>
+            {venue.map((item, e) => (
               // eslint-disable-next-line
               <Column key={e} sm={6} md={6} lg={4} xs={12}>
                 <h3>
@@ -98,7 +95,7 @@ class Hours extends React.Component {
                 </h3>
 
                 <Address data={item.result.adr_address} />
-                {item.result.opening_hours.weekday_text.map((day, i) =>
+                {item.result.opening_hours.weekday_text.map((day, i) => (
                   // eslint-disable-next-line
                   <OpenList key={i}>
                     {day
@@ -111,13 +108,13 @@ class Hours extends React.Component {
                       .replace(/Saturday/gi, 'Sabado')
                       .replace(/Sunday/gi, 'Domingo')}
                   </OpenList>
-                )}
+                ))}
               </Column>
-            )}
+            ))}
           </Row>
         </Modal>
 
-        <OpenModalText role={'button'} tabIndex={'0'} onClick={this.openModal}>
+        <OpenModalText role="button" tabIndex="0" onClick={this.openModal}>
           * Más Información
         </OpenModalText>
       </div>
