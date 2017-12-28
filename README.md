@@ -14,13 +14,30 @@ Get and API_KEY from [Google](https://developers.google.com/maps/documentation/j
 
 Start a live-reload development server:
 
+Install project:
+
 ```bash
-GM_KEY=MY_API_KEY yarn run dev
+yarn install
 ```
 
-## Deploy
-This can be deployed easily on Netlify.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/baires/ontappp/)
+Run Next.js development:
+
+```bash
+yarn next
+```
+
+Run Firebase locally for testing:
+
+```bash
+yarn serve
+```
+
+Deploy it to the cloud with Firebase
+
+```bash
+yarn deploy
+```
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fontappp.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fontappp?ref=badge_shield)
 
 

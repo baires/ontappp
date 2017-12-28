@@ -7,7 +7,7 @@ export const BOEDO = 'ChIJvXSJzFPKvJURICLju3J4jyo';
 export const VICENTELOPEZ = 'ChIJz0bvkK62vJURBdUF-2nZqbo';
 export const RECOLETA = 'ChIJ58-g9JjKvJURSeb0RculS1Q';
 
-const API_KEY = process.env.GM_KEY;
+const API_KEY = 'AIzaSyC5gcB1RjXModzRmJ9E50bC1ah6Vi9LIiY';
 
 export const URLS = [
   `https://maps.googleapis.com/maps/api/place/details/json?placeid=${PALERMO}&key=${API_KEY}`,

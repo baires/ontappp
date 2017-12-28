@@ -1,0 +1,68 @@
+{
+  "name": "ontappp",
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint --fix '{pages,components,constants}/**/*.js'",
+    "lint:css": "stylelint './components/**/*.js'",
+    "precommit": "yarn lint:css && yarn lint",
+    "analyze": "ANALYZE=1 next build"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.4.0",
+    "hedron": "^0.7.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-body-classname": "^1.2.0",
+    "react-dom": "^16.2.0",
+    "react-no-ssr": "1.1.0",
+    "react-particles-js": "^2.1.0",
+    "styled-components": "^2.4.0",
+    "styled-components-breakpoint": "^1.0.1",
+    "webpack-bundle-analyzer": "^2.9.1"
+  },
+  "description": "Is On Tap open?",
+  "author":
+    "Alexis Sgarbossa <alexis@sgarbossa.com.ar> (https://sgarbossa.com.ar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baires/ontappp/"
+  },
+  "bugs": {
+    "url": "https://github.com/baires/ontappp/issues"
+  },
+  "keywords": [
+    "next.js",
+    "react",
+    "beer",
+    "buenos aires",
+    "cerveza",
+    "styled-components"
+  ],
+  "engines": {
+    "node": ">=6.6.0",
+    "npm": ">=3.10.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.1.2",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.9.2",
+    "prop-types": "^15.6.0",
+    "styled-animated": "^1.0.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0",
+    "stylelint-processor-styled-components": "^1.2.1"
+  }
+}
