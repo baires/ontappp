@@ -12,11 +12,11 @@ const ModalContainer = styled.div`
   backface-visibility: hidden;
   transform: translateX(-50%) translateY(-50%);
   visibility: ${p => (p.show ? 'visible' : 'hidden')};
-  height: 600px;
+  height: 100%;
 
   /* stylelint-disable */
   ${breakpoint('desktop')`
-    height: auto;
+    height: 600px;
   `};
 `;
 export default ModalContainer;
