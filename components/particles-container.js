@@ -17,9 +17,10 @@ const Wrapper = styled.div`
   }
 `;
 
-const ParticlesContainer = () =>
+const ParticlesContainer = () => (
   <Wrapper>
     <Particles params={bubbles} />
-  </Wrapper>;
+  </Wrapper>
+);
 
 export default ParticlesContainer;

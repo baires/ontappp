@@ -15,9 +15,10 @@ const FooterContainer = styled.footer`
   }
 `;
 
-const Footer = () =>
+const Footer = () => (
   <FooterContainer>
     <h2>by baires</h2>
-  </FooterContainer>;
+  </FooterContainer>
+);
 
 export default Footer;

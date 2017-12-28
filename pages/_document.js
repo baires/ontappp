@@ -9,14 +9,10 @@ export default class Ontap extends Document {
 
     return (
       <html lang="en-US">
-        <Head>
-          {styleTags}
-        </Head>
+        <Head>{styleTags}</Head>
 
         <body>
-          <div className="root">
-            {main}
-          </div>
+          <div className="root">{main}</div>
           <NextScript />
         </body>
       </html>
