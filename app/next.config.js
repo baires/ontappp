@@ -15,6 +15,7 @@ module.exports = {
     }
     return config;
   },
+  distDir: '../functions/next',
   exportPathMap() {
     return {
       '/': { page: '/' }
