@@ -44,40 +44,31 @@ const VenueContainer = props => {
     text-align: center;
   `;
 
-  const Link = ({ children, href }) =>
-    <LinkStyled href={href}>
-      {children}
-    </LinkStyled>;
+  const Link = ({ children, href }) => (
+    <LinkStyled href={href}>{children}</LinkStyled>
+  );
 
   const IsOpenNow = () => {
     if (opening) {
-      return (
-        <Open>
-          {opening.open_now ? 'Si 😍' : 'No 😢'}
-        </Open>
-      );
+      return <Open>{opening.open_now ? 'Si 😍' : 'No 😢'}</Open>;
     }
-    return (
-      <Open>
-        {'Quizas'}
-      </Open>
-    );
+    return <Open>Quizas</Open>;
   };
 
-  const Joint = () =>
+  const Joint = () => (
     <JointStyled>
       {venue.address_components[2].long_name}
       {'?'}
-    </JointStyled>;
+    </JointStyled>
+  );
 
-  const Vicinity = () =>
-    <VicinityStyled>
-      {venue.formatted_address}
-    </VicinityStyled>;
+  const Vicinity = () => (
+    <VicinityStyled>{venue.formatted_address}</VicinityStyled>
+  );
 
-  const WeekDays = () =>
+  const WeekDays = () => (
     <div>
-      {opening.weekday_text.map((day, i) =>
+      {opening.weekday_text.map((day, i) => (
         // eslint-disable-next-line
         <OpenList key={i}>
           <p>
@@ -92,8 +83,9 @@ const VenueContainer = props => {
               .replace(/Sunday/gi, 'Domingo')}
           </p>
         </OpenList>
-      )}
-    </div>;
+      ))}
+    </div>
+  );
 
   return (
     <StyledColumn sm={6} md={6} lg={4} xs={6}>

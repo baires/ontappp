@@ -38,8 +38,12 @@ injectGlobal`
   ${beerColors.map(
     beer => `.${convertToSlug(beer.name)} {
               background: ${beer.PrimaryColor};
-              background: -webkit-radial-gradient(circle, ${beer.PrimaryColor}, ${beer.SecondaryColor});
-              background: radial-gradient(circle, ${beer.PrimaryColor}, ${beer.SecondaryColor});
+              background: -webkit-radial-gradient(circle, ${
+                beer.PrimaryColor
+              }, ${beer.SecondaryColor});
+              background: radial-gradient(circle, ${beer.PrimaryColor}, ${
+      beer.SecondaryColor
+    });
             }
             .${convertToSlug(beer.name)}::before {
               content: 'Flavor: ${beer.name}';

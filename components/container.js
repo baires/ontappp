@@ -10,10 +10,7 @@ const Wrapper = styled.div`
   min-height: 100%;
 `;
 
-const Container = ({ children }) =>
-  <Wrapper>
-    {children}
-  </Wrapper>;
+const Container = ({ children }) => <Wrapper>{children}</Wrapper>;
 
 Container.propTypes = {
   children: PropTypes.node.isRequired
